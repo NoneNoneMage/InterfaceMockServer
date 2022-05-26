@@ -1,0 +1,15 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "mock api",
+  "main": "mock-server.js",
+  "scripts": {
+    "single": "node mock-server.js single",
+    "multi": "node mock-server.js multi"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

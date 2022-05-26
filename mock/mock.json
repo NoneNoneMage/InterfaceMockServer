@@ -1,0 +1,35 @@
+[
+    {
+      "description": "ecare积分接口",
+      "uri": "/integral/accumulate",
+      "method": "post",
+      "data": {
+        "channelId": "2",
+        "sysTransactionId": "123"
+      }
+    },
+    {
+      "description": "cee offer订购接口",
+      "uri": "/cee/order/saveAndCommitOrder",
+      "method": "post",
+      "data": {
+        "custOrderDto": {
+          "custOrderId": 12345638899
+        }
+      }
+    },
+    {
+      "description": "云片短信发送接口",
+      "uri": "/v2/sms/single_send.json",
+      "method": "post",
+      "data": {
+        "code": 0,
+        "msg": "发送成功",
+        "count": 1,
+        "fee": 0.05,
+        "unit": "RMB",
+        "mobile": "13200000000",
+        "sid": 3310228982
+      }
+    }
+  ]
